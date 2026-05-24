@@ -16,6 +16,7 @@ story section
 magic places section
 dream friends section
 gallery section
+FAQs section
 wish list section
 footer section
 
@@ -32,6 +33,7 @@ how to make cards and boxes
 how to add buttons
 how to make the website look better with css
 how to add small interactions with javascript
+how to make FAQs
 how to make form 
 
 ## My Message
