@@ -1,0 +1,272 @@
+*{
+margin:0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #fff9fd;
+    color:#333;
+}
+
+.container{
+    width:85%;
+    margin: auto;
+
+}
+
+.site-header{
+    background-color: #ea5184;
+    padding: 20px 0;
+    
+}
+
+.nav-bar{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-size: 28px;
+    color: white;
+    font-weight:bold;
+}
+
+.nav-links{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display:flex;
+    gap: 25px;                                                             ;
+}
+.nav-links li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.main{
+   
+    background-image: url("/images/backgroud.jpeg");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    padding: 120px 0 80px;
+}
+
+.main-inner{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    gap: 24px;
+}
+
+.main-text{
+    max-width: 600px;
+}
+.main h1{
+    font-size: 48px;
+    color: #ff378a;
+    margin-bottom: 16px;
+}
+
+.main p{
+    font-size: 18px;
+    margin-bottom: 24px;
+    ;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #ff378a;
+    color: white;
+    padding : 12px 24px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size:18px;
+}
+
+.story {
+    padding: 78px 0;
+}
+
+.story h2, .places h2, .friends h2, .gallery h2, .wish h2{
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 24px;
+    color: #ff378a;
+}
+
+.timeline{
+    display: flex;
+    gap: 20px;
+    flex-wrap:wrap;
+   justify-content: center;
+}
+.time-card{
+    width: 260px;
+    background-color: rgb(241, 240, 240);
+    overflow: hidden;
+    border-radius: 12px;
+    width: 23%;
+    padding: 20px;
+    
+}
+.time-card img{
+    width:100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+}
+
+
+.places{
+    padding: 78px 0;
+    background-color: #ffeaf7;
+}
+.place-grid{
+    display:flex;
+    gap: 18px;
+    flex-wrap:wrap;
+    margin-top: 16px;
+}
+
+.place-card{
+    background-color: white;
+    padding:20px;
+    border-radius: 12px;
+    width: 48%;
+    min-width: 240px;
+    overflow: hidden;
+    
+}
+.place-card img{
+    width:100%;
+    height:300px;
+    display: block;
+}
+
+.friends{
+    display: flex;
+   
+}
+
+.friend-grid{
+    display:flex;
+    gap:18px;
+    flex-wrap: wrap;
+    margin-top: 16px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.friend-card{
+    background-color: rgb(243, 243, 243);
+    width: 30%;
+    min-width: 240px;
+    padding: 24px;
+    border-radius: 16px ;
+    text-align:center;
+}
+.friend-card img{
+    width: 100%;
+    height: 300px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.tag{
+    display: inline-block;
+    background-color: #ffe0f3;
+    color:#ff378a;
+    padding: 4px 10px;
+    border-radius: 999px;
+    font-size: 12px;
+    margin: 4px;
+}
+
+.gallery{
+    padding: 80px 0;
+    background-color: #fff3fb;
+}
+.gallery-text{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.gallery-grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 16px;
+}
+
+.gallery-card{
+    background-color: white;
+    border-radius: 12px;
+    overflow: hidden;
+    text-align: center;
+    padding: 24px;
+}
+
+.gallery-card img{
+    width:100%;
+    height:260px;
+    object-fit: cover;
+    display: block;
+
+}
+.tile{
+    .tile-1{background: #ff9ec4;}
+    .tile-2{background: #ffde59;}
+    .tile-3{background: #9cf6ff;}
+    .tile-4{background: #b6ffb4;}
+}
+
+.wish-box{
+    max-width: 700px;
+    margin:auto;
+    background-color: white;
+    border-radius: 16px;
+    padding: 30px;
+    text-align: center;
+}
+.wish p{
+    margin-bottom: 20px;
+
+}
+.wish{
+   padding: 78px 0;
+}
+
+.wish input, .wish textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border-radius: 10px;
+    border-radius: 10px;
+    border:1px solid #ffd0e9;
+}
+
+.wish button{
+    background-color: #ff378a;
+    color: white;
+    border:none;
+    padding: 10px 22px;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+footer{
+    background-color: #cb4a7e;
+    color: white;
+    text-align: center;
+    padding:16px 0;
+    margin-top: 40px;
+}
