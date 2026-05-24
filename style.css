@@ -53,7 +53,7 @@ body{
 
 .main{
    
-    background-image: url("/images/backgroud.jpeg");
+    background-image: url("images/backgroud.jpeg");
     background-size: cover;
     background-position: center;
     min-height: 100vh;
